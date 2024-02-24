@@ -29,6 +29,18 @@
     });
   }
 
+  if ($('.typed2').length) {
+    var typed_strings = $(".typed2").data('typed-items2');
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed2', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

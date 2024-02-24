@@ -470,6 +470,46 @@ section {
   background-color: #0563bb;
 }
 
+.skills .progress-bar-wrap-green {
+  background: #6db9a5;
+}
+.skills .progress-bar-green {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #6db9a5;
+}
+
+.skills .progress-bar-wrap-misc {
+  background: #167630;
+}
+.skills .progress-bar-misc {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #167630;
+}
+
+.skills .progress-bar-wrap-cloud {
+  background: #7d9ace;
+}
+.skills .progress-bar-cloud {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #7d9ace;
+}
+
+.skills .progress-bar-wrap-front {
+  background: #f3e416;
+}
+.skills .progress-bar-front {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #f3e416;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
